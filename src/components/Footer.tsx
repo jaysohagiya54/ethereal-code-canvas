@@ -44,7 +44,7 @@ const Footer = () => {
         
         <div className="border-t border-border/40 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-foreground/60">
-            © {currentYear} John Doe. All rights reserved.
+            © {currentYear} Jay Sohagiya. All rights reserved.
           </p>
           
           <div className="mt-4 md:mt-0">

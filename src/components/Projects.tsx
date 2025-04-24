@@ -9,30 +9,30 @@ const Projects = () => {
   
   const projects = [
     {
-      title: "AI Image Generator",
-      description: "A web app that uses machine learning to generate images from text descriptions. Built with React, TensorFlow.js and Node.js.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-      tags: ["React", "TensorFlow", "Node.js"],
-      githubUrl: "https://github.com",
-      demoUrl: "https://demo.com",
+      title: "Memory Game",
+      description: "A fun and interactive memory game built with React, featuring card matching mechanics and score tracking.",
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+      tags: ["React", "CSS", "JavaScript"],
+      githubUrl: "https://github.com/Jay-Sojitra/Memory-game",
+      demoUrl: "https://memory-game-js-six.vercel.app/",
       delay: 100
     },
     {
-      title: "Cloud File Manager",
-      description: "A serverless application for file management using AWS S3, Lambda, and React. Features include file upload, sharing, and permissions.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-      tags: ["React", "AWS", "Serverless"],
-      githubUrl: "https://github.com",
-      demoUrl: "https://demo.com",
+      title: "Realtime Chat App",
+      description: "A real-time chat application built with React and Firebase, enabling instant messaging and user authentication.",
+      image: "https://images.unsplash.com/photo-1611606063065-ee7946f0787a",
+      tags: ["React", "Firebase", "Tailwind"],
+      githubUrl: "https://github.com/Jay-Sojitra/chat-app",
+      demoUrl: "https://chat-app-js-nine.vercel.app/",
       delay: 300
     },
     {
-      title: "Smart Task Tracker",
-      description: "A productivity app that uses ML algorithms to predict task completion times and optimize scheduling. Built with the MERN stack.",
-      image: "https://images.unsplash.com/photo-1473091534298-04dcbce3278c",
-      tags: ["MongoDB", "Express", "React", "Node"],
-      githubUrl: "https://github.com",
-      demoUrl: "https://demo.com",
+      title: "Blog App",
+      description: "A full-stack blog application with user authentication, CRUD operations, and responsive design.",
+      image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643",
+      tags: ["Next.js", "MongoDB", "Node.js"],
+      githubUrl: "https://github.com/Jay-Sojitra/Blog-app",
+      demoUrl: "https://blog-app-js.vercel.app/",
       delay: 500
     }
   ];

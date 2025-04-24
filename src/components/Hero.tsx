@@ -31,7 +31,7 @@ const Hero = () => {
         >
           <h3 className="text-lg md:text-xl text-primary mb-2 font-medium">Hello, I'm</h3>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="text-gradient">John Doe</span>
+            <span className="text-gradient">Jay Sohagiya</span>
           </h1>
           <div className="text-xl md:text-2xl mb-6 text-foreground/90 h-12">
             <AnimatedText text="I build web & AI-powered solutions." />
@@ -45,12 +45,19 @@ const Hero = () => {
             <a href="#projects" className="btn btn-primary flex items-center gap-2">
               Explore Projects <ArrowRight size={16} />
             </a>
-            <a href="#" className="btn btn-outline">Download Resume</a>
+            <a 
+              href="https://drive.google.com/file/d/1XGUMHQ9y23xiVNAdfRu3dkTEYbpFSACb/view?usp=drive_link" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn btn-outline"
+            >
+              Download Resume
+            </a>
           </div>
           
           <div className="mt-8 flex items-center gap-4">
             <a 
-              href="https://github.com" 
+              href="https://github.com/Jay-Sojitra" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-muted hover:bg-muted/80 transition-colors"
