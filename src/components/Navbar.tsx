@@ -1,6 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
+import { ThemeToggle } from './ThemeToggle';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -58,6 +58,7 @@ const Navbar = () => {
           >
             Let's Connect
           </a>
+          <ThemeToggle />
         </nav>
 
         {/* Mobile Menu Button */}
@@ -101,6 +102,9 @@ const Navbar = () => {
               >
                 Let's Connect
               </a>
+              <div className="flex justify-center mt-4">
+                <ThemeToggle />
+              </div>
             </div>
           </div>
         )}
